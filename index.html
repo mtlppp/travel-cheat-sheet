@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>旅行貓紙 Travel Cheat Sheet｜日語・泰語旅行常用句</title>
+<meta name="description" content="旅行貓紙：免費手機旅行短句工具，收錄日語及泰語購物、點餐、問價、付款、問路、求助等常用句，附中英對照、羅馬拼音及價錢數字板，打開即用。">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mtlppp.github.io/travel-cheat-sheet/">
+<link rel="alternate" hreflang="zh-Hant" href="https://mtlppp.github.io/travel-cheat-sheet/">
+<link rel="alternate" hreflang="x-default" href="https://mtlppp.github.io/travel-cheat-sheet/">
+<meta name="theme-color" content="#f7f5ee">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="旅行貓紙 Travel Cheat Sheet">
+<meta property="og:title" content="旅行貓紙｜日語・泰語旅行常用句">
+<meta property="og:description" content="購物、點餐、付款、問路常用句，中英對照、附拼音，手機打開即用。">
+<meta property="og:url" content="https://mtlppp.github.io/travel-cheat-sheet/">
+<meta property="og:locale" content="zh_HK">
+<meta name="twitter:card" content="summary">
+<!-- Google Search Console 驗證：取得驗證碼後取消下一行註解並填入 -->
+<!-- <meta name="google-site-verification" content="在此貼上驗證碼"> -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"旅行貓紙 Travel Cheat Sheet","url":"https://mtlppp.github.io/travel-cheat-sheet/","applicationCategory":"TravelApplication","operatingSystem":"Any","inLanguage":["zh-Hant","en","ja","th"],"description":"日語及泰語旅行常用句工具，附中英對照、羅馬拼音及價錢數字板。","softwareVersion":"1.0","offers":{"@type":"Offer","price":"0","priceCurrency":"HKD"}}
+</script>
+<script>
+/* Google AdSense 設定：AdSense 帳戶批准後，把 ca-pub-… 和廣告單元 slot 編號填入即可啟用。留空時不載入任何廣告。 */
+window.ADS_CONFIG = { client: '', slot: '' };
+(function () {
+  var c = window.ADS_CONFIG.client;
+  if (!c) return;
+  var s = document.createElement('script');
+  s.async = true;
+  s.crossOrigin = 'anonymous';
+  s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(c);
+  document.head.appendChild(s);
+})();
+</script>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #f7f5ee;
+  color: #173e33;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+main {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: calc(24px + env(safe-area-inset-top)) 16px 30px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.title-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+h1 {
+  font-family: Georgia, 'Songti TC', serif;
+  font-size: clamp(25px, 7vw, 35px);
+  margin: 0;
+  line-height: 1.15;
+  letter-spacing: -1px;
+}
+.version {
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #798777;
+  background: #e8eee2;
+  border: 1px solid #d4dece;
+  border-radius: 6px;
+  padding: 1px 6px;
+  letter-spacing: 0;
+}
+button, select {
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  min-height: 44px;
+}
+button:focus-visible, summary:focus-visible, select:focus-visible {
+  outline: 3px solid #79a487;
+}
+.toggle {
+  display: flex;
+  position: relative;
+  width: 112px;
+  flex-shrink: 0;
+  border: 1px solid #c6d1c1;
+  border-radius: 24px;
+  padding: 3px;
+  height: 44px;
+}
+.slider {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  bottom: 3px;
+  width: calc(50% - 3px);
+  border-radius: 22px;
+  background: #285d45;
+  transition: transform .28s;
+}
+.toggle.en .slider { transform: translateX(100%); }
+.toggle button {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  background: none;
+  border: 0;
+  font-size: 14px;
+  color: #657467;
+  min-height: 36px;
+}
+.toggle .active { color: white; }
+
+.lang-selector-box {
+  margin: 14px 0 6px;
+}
+.select-wrap {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  background: white;
+  border: 1px solid #c6d1c1;
+  border-radius: 12px;
+  padding: 0 14px;
+}
+.select-wrap select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  color: #173e33;
+  font-family: Georgia, serif;
+  font-size: 19px;
+  font-weight: 500;
+  padding-right: 22px;
+  outline: none;
+}
+.select-wrap::after {
+  content: "▾";
+  position: absolute;
+  right: 12px;
+  font-size: 14px;
+  color: #526356;
+  pointer-events: none;
+}
+
+.note {
+  font-size: 13px;
+  color: #6a766a;
+  line-height: 1.6;
+}
+details {
+  background: #ffffffb5;
+  border: 1px solid #dfe5db;
+  border-radius: 12px;
+  margin: 9px 0;
+}
+summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 17px 14px;
+}
+summary::-webkit-details-marker { display: none; }
+summary:after {
+  content: '⌄';
+  margin-left: auto;
+}
+details[open] summary:after { content: '⌃'; }
+summary small {
+  display: block;
+  color: #737e75;
+  font-size: 13px;
+  margin-top: 4px;
+}
+svg {
+  width: 29px;
+  height: 29px;
+  stroke: #21543f;
+  fill: none;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+.card {
+  display: flex;
+  gap: 14px;
+  text-align: left;
+  width: calc(100% - 20px);
+  margin: 0 10px 10px;
+  padding: 17px 14px;
+  background: white;
+  border: 1px solid #dfe5db;
+  border-radius: 11px;
+  color: #122027;
+}
+.content {
+  min-width: 0;
+  flex: 1;
+}
+.target-text {
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.meaning {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+.roman {
+  font: 16px Georgia, serif;
+  color: #798087;
+  margin-top: 7px;
+}
+.tip {
+  font-size: 13px;
+  color: #637369;
+  line-height: 1.6;
+  margin-top: 12px;
+}
+.label {
+  text-align: right;
+  font-size: 13px;
+  color: #285d45;
+  margin-top: 12px;
+}
+.plain {
+  padding: 10px 14px;
+  border: 1px solid #ccd7c7;
+  border-radius: 10px;
+  background: white;
+  color: #285d45;
+}
+
+/* Detail View */
+.detail {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  background: #fffef8;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: calc(16px + env(safe-area-inset-top)) 18px calc(24px + env(safe-area-inset-bottom));
+}
+.inner {
+  max-width: 480px;
+  min-height: calc(100dvh - 104px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.options {
+  min-height: 82px;
+  text-align: center;
+}
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: center;
+  margin: 12px 0;
+}
+.choices button {
+  font-size: 13px;
+  background: transparent;
+  border-color: #e1e7dc;
+}
+.choices .active { background: #e3eddf; }
+.phrase {
+  flex: 1;
+  min-height: 240px;
+  padding: 26px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.detail .target-text {
+  font-size: clamp(34px, 9vw, 48px);
+  font-weight: 500;
+  line-height: 1.6;
+}
+.detail .meaning {
+  margin-top: 22px;
+  font-size: 18px;
+}
+.detail .roman { margin-top: 12px; }
+.actions {
+  text-align: center;
+  padding: 6px 0 30px;
+  min-height: 100px;
+}
+.price {
+  min-width: 160px;
+  background: #edf3e7;
+}
+
+/* Pad Bottom Sheet Overlay (Pure Fixed Layer) */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  overflow: hidden;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.overlay[hidden], .detail[hidden] {
+  display: none !important;
+}
+.shade {
+  position: absolute;
+  inset: 0;
+  background: rgba(22, 43, 34, 0.44);
+  opacity: 0;
+  transition: opacity .525s ease;
+  z-index: 1;
+}
+.sheet {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  height: 92%;
+  max-height: 92dvh;
+  border-radius: 24px 24px 0 0;
+  background: #fffef8;
+  transform: translateY(105%);
+  transition: transform .525s cubic-bezier(.4, 0, .6, 1);
+  will-change: transform;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.12);
+  padding: 16px 18px calc(16px + env(safe-area-inset-bottom));
+}
+.overlay.open .sheet {
+  transform: translateY(0);
+  transition-duration: .8s;
+  transition-timing-function: cubic-bezier(.22, .7, .25, 1);
+}
+.overlay.open .shade {
+  opacity: 1;
+  transition-duration: .8s;
+}
+.sheet-scroll {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  min-height: 0;
+  flex: 1;
+}
+.sheet-inner {
+  max-width: 440px;
+  margin: auto;
+}
+.handle {
+  width: 40px;
+  height: 5px;
+  background: #d4dece;
+  border-radius: 4px;
+  margin: 0 auto 12px;
+  flex-shrink: 0;
+}
+.sheet .target-text {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 14px;
+}
+.sheet .meaning { text-align: center; }
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: clamp(28px, 8vw, 40px);
+  background: #eff4e9;
+  border: 1px solid #dce5d4;
+  border-radius: 12px;
+  min-height: 72px;
+  padding: 10px 14px;
+  margin: 16px 0;
+  overflow-wrap: anywhere;
+}
+.keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9px;
+}
+.keys button {
+  min-height: 54px;
+  font-size: 24px;
+  color: #214f39;
+  border: 1px solid #d6dfce;
+  border-radius: 12px;
+  background: white;
+}
+.done {
+  background: #285d45;
+  color: white;
+  border: 0;
+  width: 100%;
+  min-height: 50px;
+  margin-top: 16px;
+  font-weight: 600;
+}
+.sheet .note {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 8px;
+}
+body.locked {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+.fade {
+  animation: fade .28s;
+}
+@keyframes fade {
+  from { opacity: .35; }
+  to { opacity: 1; }
+}
+.ad-slot {
+  margin: 22px 0 0;
+  text-align: center;
+}
+.ad-slot[hidden] { display: none !important; }
+.ad-label {
+  display: block;
+  font-size: 11px;
+  color: #8a958a;
+  letter-spacing: .5px;
+  margin-bottom: 4px;
+}
+.about {
+  font-size: 13px;
+  color: #6a766a;
+  line-height: 1.7;
+  margin: 22px 4px 0;
+}
+.about h2 {
+  font-size: 14px;
+  margin: 0 0 4px;
+  color: #3d5a4c;
+}
+footer a { color: #285d45; }
+footer {
+  font-size: 12px;
+  color: #748172;
+  text-align: center;
+  margin: 26px 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+@media (max-height: 700px) {
+  .sheet { height: 96%; max-height: 96dvh; }
+  .keys button { min-height: 46px; }
+  .number { margin: 10px 0; min-height: 60px; }
+  .phrase { min-height: 180px; }
+}
+</style>
+</head>
+<body>
+<main id="app">
+  <header>
+    <div class="title-wrap">
+      <h1 id="title">旅行貓紙</h1>
+      <span class="version" aria-label="版本 v1.0">v1.0</span>
+    </div>
+    <div class="toggle" id="toggle">
+      <span class="slider"></span>
+      <button id="zh" class="active" aria-pressed="true">中文</button>
+      <button id="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+  
+  <div class="lang-selector-box">
+    <div class="select-wrap">
+      <select id="countryLangSelect" aria-label="選擇國家與語言 / Select country and language">
+        <option value="jp">日本 · 日語 (Japan · Japanese)</option>
+        <option value="th">泰國 · 泰語 (Thailand · Thai)</option>
+      </select>
+    </div>
+  </div>
+
+  <p class="note" id="intro"></p>
+  <section id="groups"></section>
+  <aside class="ad-slot" id="adSlot" aria-label="廣告" hidden>
+    <span class="ad-label" id="adLabel">廣告</span>
+    <ins class="adsbygoogle" id="adUnit" style="display:block" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </aside>
+  <section class="about" id="about">
+    <h2 id="aboutTitle">關於旅行貓紙</h2>
+    <p id="aboutText">旅行貓紙是免費的手機旅行短句工具，收錄日語及泰語在購物、點餐、問價、付款、問路、預約及求助時最常用的句子，附中英對照及羅馬拼音。問價時可開啟數字板，讓店員直接輸入價錢。</p>
+  </section>
+  <noscript><p class="note">請啟用 JavaScript 以使用全部功能。Please enable JavaScript to use this app.</p></noscript>
+  <footer id="footer"><span id="footerText">旅行語句貓紙 v1.0</span> · <a href="privacy.html" id="privacyLink">私隱政策</a></footer>
+</main>
+
+<section class="detail" id="detail" role="region" aria-label="Phrase details" hidden>
+  <button class="plain" id="back">‹ 返回</button>
+  <div class="inner">
+    <div class="options" id="options"></div>
+    <div class="phrase">
+      <div class="target-text" id="djp"></div>
+      <div class="meaning" id="dm"></div>
+      <div class="roman" id="dr"></div>
+      <div class="tip" id="dt"></div>
+    </div>
+    <div class="actions" id="actions"></div>
+  </div>
+</section>
+
+<section class="overlay" id="pad" hidden>
+  <div class="shade" id="shade"></div>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="padtitle" tabindex="-1">
+    <div class="handle"></div>
+    <div class="sheet-scroll" id="sheetScroll">
+      <div class="sheet-inner">
+        <strong id="padtitle" style="display:block; text-align:center; font-size:15px; color:#637369; margin-bottom:4px;">價錢輸入</strong>
+        <div class="target-text" id="pjp"></div>
+        <div class="meaning" id="pm"></div>
+        <output class="number" id="number" aria-live="polite">0</output>
+        <div class="keys" id="keys"></div>
+        <button class="plain done" id="done">完成</button>
+        <p class="note" id="padnote">數字只供本次查看，不會保存。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+const DB = {
+  jp: {
+    langCode: 'ja',
+    labelZh: '日本 · 日語',
+    labelEn: 'Japan · Japanese',
+    rows: [
+      ['これはありますか？', '你們有這個嗎？', 'Do you have this?', 'Kore wa arimasu ka?'],
+      ['これをください。', '請給我這個。', 'This one, please.', 'Kore o kudasai'],
+      ['いくらですか？', '多少錢？', 'How much is it?', 'Ikura desu ka?'],
+      ['お会計お願いします。', '請結帳。', 'The bill, please.', 'Okaikei onegaishimasu'],
+      ['カードは使えますか？', '可以用卡付款嗎？', 'Can I pay by card?', 'Kādo wa tsukaemasu ka?'],
+      ['トイレはどこですか？', '洗手間在哪裏？', 'Where is the toilet?', 'Toire wa doko desu ka?'],
+      ['ここに行きたいです。', '我想去這裏。', 'I want to go here.', 'Koko ni ikitai desu'],
+      ['予約しています。', '我有預約。', 'I have a reservation.', 'Yoyaku shite imasu'],
+      ['手伝ってください。', '請幫我一下。', 'Please help me.', 'Tetsudatte kudasai'],
+      ['すみません。', '不好意思。', 'Excuse me.', 'Sumimasen'],
+      ['日本語がわかりません。', '我不懂日語。', "I don’t understand Japanese.", 'Nihongo ga wakarimasen'],
+      ['いりません。', '不用了。', 'No, thank you.', 'Irimasen'],
+      ['ありがとう。', '謝謝。', 'Thank you.', 'Arigatō']
+    ]
+  },
+  th: {
+    langCode: 'th',
+    labelZh: '泰國 · 泰語',
+    labelEn: 'Thailand · Thai',
+    rows: [
+      ['มีอันนี้ไหมครับ/ค่ะ?', '你們有這個嗎？', 'Do you have this?', 'Mii an nii mai khrap/kha?'],
+      ['เอาอันนี้ครับ/ค่ะ', '請給我這個。', 'This one, please.', 'Ao an nii khrap/kha'],
+      ['เท่าไหร่ครับ/ค่ะ?', '多少錢？', 'How much is it?', 'Thao rai khrap/kha?'],
+      ['เช็คบิลด้วยครับ/ค่ะ', '請結帳。', 'The bill, please.', 'Chek bin duai khrap/kha'],
+      ['จ่ายบัตรได้ไหมครับ/ค่ะ?', '可以用卡付款嗎？', 'Can I pay by card?', 'Jai bat dai mai khrap/kha?'],
+      ['ห้องน้ำอยู่ที่ไหนครับ/ค่ะ?', '洗手間在哪裏？', 'Where is the toilet?', 'Hong nam yuu thii nai khrap/kha?'],
+      ['อยากไปที่นี่ครับ/ค่ะ', '我想去這裏。', 'I want to go here.', 'Yaak pai thii nii khrap/kha'],
+      ['จองไว้แล้วครับ/ค่ะ', '我有預約。', 'I have a reservation.', 'Jong wai laeo khrap/kha'],
+      ['ช่วยหน่อยได้ไหมครับ/ค่ะ?', '請幫我一下。', 'Please help me.', 'Chuai noi dai mai khrap/kha?'],
+      ['ขอโทษครับ/ค่ะ', '不好意思。', 'Excuse me.', 'Kho thot khrap/kha'],
+      ['พูดภาษาไทยไม่ได้ครับ/ค่ะ', '我不懂泰語。', "I don’t speak Thai.", 'Phuut phaa-saa thai mai dai khrap/kha'],
+      ['ไม่เอาครับ/ค่ะ', '不用了。', 'No, thank you.', 'Mai ao khrap/kha'],
+      ['ขอบคุณครับ/ค่ะ', '謝謝。', 'Thank you.', 'Khop khun khrap/kha']
+    ]
+  }
+};
+
+const gs = [
+  ['買東西／點餐', 'Shopping / Ordering', '找商品、選東西', 'Find and choose items', 0, 2, 'bag'],
+  ['價錢／付款', 'Prices / Payment', '問價、結帳、付款', 'Price, bill, payment', 2, 5, 'card'],
+  ['找地方／辦事情', 'Directions / Assistance', '洗手間、目的地、預約、協助', 'Toilet, destination, booking, help', 5, 9, 'pin'],
+  ['回應／禮貌', 'Responses / Courtesy', '打擾、聽不懂、拒絕、致謝', 'Excuse me, language, refusal, thanks', 9, 13, 'chat']
+];
+
+const paths = {
+  bag: '<path d="M5 10h14l2 12H3zM8 11V7a4 4 0 0 1 8 0v4"/>',
+  card: '<rect x="2" y="5" width="20" height="15" rx="2"/><path d="M2 10h20M5 16h3"/>',
+  pin: '<path d="M12 23s8-8 8-14a8 8 0 1 0-16 0c0 6 8 14 8 14z"/><circle cx="12" cy="9" r="2.5"/>',
+  chat: '<path d="M21 11c0 5-4 8-9 8H8l-5 3 1-6a8 8 0 0 1-2-5c0-5 4-8 10-8s9 3 9 8z"/>'
+};
+
+const $ = id => document.getElementById(id);
+let currentLang = 'jp';
+let en = false, first = true, current = 0, variant = 0, cash = false, digits = '', state = 'closed', savedScroll = 0, trigger = null, priceTrigger = null, timer;
+
+try {
+  en = localStorage.getItem('cheat-ui') === 'en';
+  const savedL = localStorage.getItem('cheat-target-lang');
+  if (savedL && DB[savedL]) currentLang = savedL;
+} catch(e) {}
+
+const icon = n => '<svg viewBox="0 0 24 24" aria-hidden="true">' + paths[n] + '</svg>';
+const tips = [
+  ['展示商品照片或樣本。', 'Show a photo or sample.'],
+  ['指向商品或菜單。', 'Point to the item or menu.'],
+  ['指向商品，再開啟數字板。', 'Point to the item, then open the number pad.'],
+  ['', ''],
+  ['接着展示你的卡。', 'Then show your card.'],
+  ['配合指方向手勢。', 'Use a pointing gesture.'],
+  ['接着展示目的地。', 'Then show your destination.'],
+  ['展示預約確認資料。', 'Show your booking confirmation.'],
+  ['指向需要協助的物件。', 'Point to what you need help with.'],
+  ['', ''],
+  ['聽不懂提問時展示。', 'Show when you cannot understand a question.'],
+  ['', ''],
+  ['', '']
+];
+
+function focusNoScroll(el) {
+  if (!el) return;
+  try { el.focus({ preventScroll: true }); } catch (e) { el.focus(); }
+}
+
+function hint(r) {
+  if (currentLang === 'jp') {
+    return r[0].includes('は') ? (en ? 'Pronunciation: は sounds like wa.' : '讀法：は 讀 wa。') :
+           r[0].includes('を') ? (en ? 'Pronunciation: を sounds like o.' : '讀法：を 讀 o。') : '';
+  }
+  if (currentLang === 'th') {
+    return en ? 'Polite ending: men say khrap (ครับ), women say kha (ค่ะ/คะ).' : '禮貌尾音：男士說 khrap (ครับ) / 女士說 kha (ค่ะ/คะ)';
+  }
+  return '';
+}
+
+function render(anim = false) {
+  const open = [...document.querySelectorAll('details')].map(d => d.open), y = window.scrollY;
+  document.documentElement.lang = en ? 'en' : 'zh-Hant';
+  $('title').textContent = en ? 'Travel Cheat Sheet' : '旅行貓紙';
+  $('toggle').classList.toggle('en', en);
+  ['zh', 'en'].forEach((id, i) => {
+    $(id).className = (i === 1) === en ? 'active' : '';
+    $(id).setAttribute('aria-pressed', (i === 1) === en);
+  });
+  
+  $('countryLangSelect').value = currentLang;
+  $('countryLangSelect').options[0].textContent = en ? 'Japan · Japanese' : '日本 · 日語';
+  $('countryLangSelect').options[1].textContent = en ? 'Thailand · Thai' : '泰國 · 泰語';
+  
+  $('intro').textContent = en ? 'Read it aloud, or tap for details.' : '照着讀，或點一下使用詳細功能。';
+  $('footerText').textContent = en ? 'Travel Phrase Sheet v1.0' : '旅行語句貓紙 v1.0';
+  $('privacyLink').textContent = en ? 'Privacy Policy' : '私隱政策';
+  $('adLabel').textContent = en ? 'Advertisement' : '廣告';
+  $('adSlot').setAttribute('aria-label', en ? 'Advertisement' : '廣告');
+  $('aboutTitle').textContent = en ? 'About Travel Cheat Sheet' : '關於旅行貓紙';
+  $('aboutText').textContent = en
+    ? 'Travel Cheat Sheet is a free mobile phrase tool with the most useful Japanese and Thai phrases for shopping, ordering, prices, payment, directions, bookings and asking for help, with Chinese and English meanings and romanisation. When asking a price, open the number pad so staff can type it in.'
+    : '旅行貓紙是免費的手機旅行短句工具，收錄日語及泰語在購物、點餐、問價、付款、問路、預約及求助時最常用的句子，附中英對照及羅馬拼音。問價時可開啟數字板，讓店員直接輸入價錢。';
+  $('groups').replaceChildren();
+
+  const rows = DB[currentLang].rows;
+  const langCode = DB[currentLang].langCode;
+
+  gs.forEach((g, gi) => {
+    const d = document.createElement('details');
+    d.open = first ? gi === 0 : !!open[gi];
+    const s = document.createElement('summary');
+    s.innerHTML = icon(g[6]);
+    const t = document.createElement('div');
+    t.innerHTML = '<strong></strong><small></small>';
+    t.children[0].textContent = g[en ? 1 : 0];
+    t.children[1].textContent = g[en ? 3 : 2];
+    if (anim) t.className = 'fade';
+    s.append(t);
+    d.append(s);
+
+    for (let i = g[4]; i < g[5]; i++) {
+      const r = rows[i], b = document.createElement('button');
+      b.className = 'card';
+      b.innerHTML = icon(g[6]);
+      const c = document.createElement('div');
+      c.className = 'content';
+      [
+        ['target-text', r[0]],
+        ['meaning', r[en ? 2 : 1]],
+        ['roman', r[3]],
+        ['tip', hint(r)],
+        ['tip', tips[i][en ? 1 : 0]],
+        ['label', en ? 'Details ›' : '詳細 ›']
+      ].forEach(([cls, txt]) => {
+        if (!txt) return;
+        const x = document.createElement('div');
+        x.className = cls + (anim && cls !== 'target-text' && cls !== 'roman' ? ' fade' : '');
+        x.textContent = txt;
+        if (cls === 'target-text') x.lang = langCode;
+        c.append(x);
+      });
+      b.append(c);
+      b.onclick = () => openDetail(i, b);
+      d.append(b);
+    }
+    $('groups').append(d);
+  });
+  first = false;
+  if (anim) window.scrollTo(0, y);
+}
+
+function activeRow() {
+  const rows = DB[currentLang].rows;
+  let r = [...rows[current]];
+
+  if (currentLang === 'jp') {
+    if (current === 4 && cash) return ['現金で払えますか？', '可以用現金付款嗎？', 'Can I pay in cash?', 'Genkin de haraemasu ka?'];
+    if ([0, 1, 2].includes(current) && variant > 0) {
+      const v = variant - 1,
+            k = ['これ', 'それ', 'あれ'][v],
+            ko = ['Kore', 'Sore', 'Are'][v],
+            z = ['這個', '對方那個', '遠處那個'][v],
+            e = ['this', 'that', 'that over there'][v];
+      if (current === 0) r = [k + 'はありますか？', '你們有' + z + '嗎？', 'Do you have ' + e + '?', ko + ' wa arimasu ka?'];
+      if (current === 1) r = [k + 'をください。', '請給我' + z + '。', e[0].toUpperCase() + e.slice(1) + ', please.', ko + ' o kudasai'];
+      if (current === 2) r = [k + 'はいくらですか？', z + '多少錢？', 'How much is ' + e + '?', ko + ' wa ikura desu ka?'];
+    }
+  } else if (currentLang === 'th') {
+    if (current === 4 && cash) return ['จ่ายเงินสดได้ไหมครับ/ค่ะ?', '可以用現金付款嗎？', 'Can I pay in cash?', 'Jai ngoen sot dai mai khrap/kha?'];
+    if ([0, 1, 2].includes(current) && variant > 0) {
+      const v = variant - 1,
+            k = ['อันนี้', 'อันนั้น', 'อันโน้น'][v],
+            ko = ['An nii', 'An nan', 'An noon'][v],
+            z = ['這個', '那個', '遠處那個'][v],
+            e = ['this', 'that', 'that over there'][v];
+      if (current === 0) r = ['มี' + k + 'ไหมครับ/ค่ะ?', '你們有' + z + '嗎？', 'Do you have ' + e + '?', 'Mii ' + ko.toLowerCase() + ' mai khrap/kha?'];
+      if (current === 1) r = ['เอา' + k + 'ครับ/ค่ะ', '請給我' + z + '。', e[0].toUpperCase() + e.slice(1) + ', please.', 'Ao ' + ko.toLowerCase() + ' khrap/kha'];
+      if (current === 2) r = [k + 'เท่าไหร่ครับ/ค่ะ?', z + '多少錢？', 'How much is ' + e + '?', ko + ' thao rai khrap/kha?'];
+    }
+  }
+  return r;
+}
+
+function openDetail(i, b) {
+  current = i;
+  variant = i < 2 ? 1 : 0;
+  cash = false;
+  trigger = b;
+  savedScroll = window.scrollY;
+  document.body.style.top = -savedScroll + 'px';
+  document.body.classList.add('locked');
+  detailRender();
+  $('detail').hidden = false;
+  $('detail').scrollTop = 0;
+  $('app').inert = true;
+  focusNoScroll($('back'));
+}
+
+function detailRender() {
+  const r = activeRow();
+  const langCode = DB[currentLang].langCode;
+  $('back').textContent = en ? '‹ Back' : '‹ 返回';
+  $('djp').textContent = r[0];
+  $('djp').lang = langCode;
+  $('dm').textContent = r[en ? 2 : 1];
+  $('dr').textContent = r[3];
+  $('dt').textContent = hint(r);
+  $('options').replaceChildren();
+  $('actions').replaceChildren();
+
+  function btn(text, fn, active = false) {
+    const b = document.createElement('button');
+    b.className = 'plain' + (active ? ' active' : '');
+    b.textContent = text;
+    b.onclick = fn;
+    b.setAttribute('aria-pressed', active);
+    return b;
+  }
+
+  if ([0, 1, 2].includes(current)) {
+    const c = document.createElement('div');
+    c.className = 'choices';
+    const opts = en ? ['Short', 'This', 'Near them', 'Over there'] : ['簡短問法', '這個', '對方那個', '遠處那個'];
+    for (let v = (current === 2 ? 0 : 1); v < 4; v++) {
+      c.append(btn(opts[v], () => { variant = v; detailRender(); }, variant === v));
+    }
+    $('options').append(c);
+  }
+
+  if (current === 4) {
+    const c = document.createElement('div');
+    c.className = 'choices';
+    [false, true].forEach(v => c.append(btn(v ? (en ? 'Cash' : '現金') : (en ? 'Card' : '卡'), () => { cash = v; detailRender(); }, cash === v)));
+    $('options').append(c);
+  }
+
+  const n = document.createElement('p');
+  n.className = 'note';
+  n.textContent = current === 4 && cash ? (en ? 'Show cash if needed.' : '如需確認，可展示現金。') : tips[current][en ? 1 : 0];
+  $('actions').append(n);
+
+  if (current === 2) {
+    priceTrigger = btn(en ? 'Enter price' : '輸入價錢', openPad);
+    priceTrigger.classList.add('price');
+    priceTrigger.removeAttribute('aria-pressed');
+    $('actions').append(priceTrigger);
+  }
+}
+
+function closeDetail() {
+  $('detail').hidden = true;
+  $('app').inert = false;
+  document.body.classList.remove('locked');
+  document.body.style.top = '';
+  window.scrollTo(0, savedScroll);
+  if (trigger) focusNoScroll(trigger);
+}
+$('back').onclick = closeDetail;
+
+function openPad() {
+  if (state !== 'closed') return;
+  state = 'opening';
+  digits = '';
+  const r = activeRow();
+  const langCode = DB[currentLang].langCode;
+  $('pjp').textContent = r[0];
+  $('pjp').lang = langCode;
+  $('pm').textContent = r[en ? 2 : 1];
+  $('number').textContent = '0';
+  $('padtitle').textContent = en ? 'Enter price' : '價錢輸入';
+  $('done').textContent = en ? 'Done' : '完成';
+  $('padnote').textContent = en ? 'Numbers are not saved.' : '數字只供本次查看，不會保存。';
+  
+  $('keys').replaceChildren();
+  ['1', '2', '3', '4', '5', '6', '7', '8', '9', '.', '0', 'delete'].forEach(k => {
+    const b = document.createElement('button');
+    b.textContent = k === 'delete' ? '⌫' : k;
+    b.setAttribute('aria-label', k === 'delete' ? (en ? 'Delete last digit' : '刪除最後一位') : k);
+    b.onclick = () => {
+      if (state === 'closing') return;
+      if (k === 'delete') digits = digits.slice(0, -1);
+      else if (digits.length < 12 && (k !== '.' || !digits.includes('.'))) {
+        if (k === '.' && !digits) digits = '0';
+        digits += k;
+      }
+      $('number').textContent = digits || '0';
+    };
+    $('keys').append(b);
+  });
+
+  $('pad').hidden = false;
+  $('sheetScroll').scrollTop = 0;
+  $('detail').inert = true;
+  
+  focusNoScroll($('sheet'));
+  $('sheetScroll').scrollTop = 0;
+  void $('sheet').offsetHeight;
+  
+  requestAnimationFrame(() => {
+    if (state === 'opening') {
+      $('pad').classList.add('open');
+      state = 'open';
+    }
+  });
+}
+
+function finishClose() {
+  clearTimeout(timer);
+  $('sheet').removeEventListener('transitionend', onEnd);
+  $('pad').hidden = true;
+  digits = '';
+  $('number').textContent = '0';
+  $('sheetScroll').scrollTop = 0;
+  $('detail').inert = false;
+  state = 'closed';
+  if (priceTrigger) focusNoScroll(priceTrigger);
+}
+
+function onEnd(e) {
+  if (state === 'closing' && e.target === $('sheet') && e.propertyName === 'transform') {
+    finishClose();
+  }
+}
+
+function closePad() {
+  if (state === 'closed' || state === 'closing') return;
+  state = 'closing';
+  $('pad').classList.remove('open');
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    finishClose();
+  } else {
+    $('sheet').addEventListener('transitionend', onEnd);
+    timer = setTimeout(finishClose, 600);
+  }
+}
+
+$('done').onclick = closePad;
+$('shade').onclick = closePad;
+
+document.addEventListener('keydown', e => {
+  const root = state !== 'closed' ? $('sheet') : (!($('detail').hidden) ? $('detail') : null);
+  if (!root) return;
+  if (e.key === 'Escape') {
+    e.preventDefault();
+    state !== 'closed' ? closePad() : closeDetail();
+  }
+  if (e.key === 'Tab') {
+    const elements = [...root.querySelectorAll('button:not([disabled])')];
+    const firstEl = elements[0], lastEl = elements[elements.length - 1];
+    if (e.shiftKey && (document.activeElement === firstEl || document.activeElement === root)) {
+      e.preventDefault();
+      lastEl.focus({ preventScroll: true });
+    } else if (!e.shiftKey && document.activeElement === lastEl) {
+      e.preventDefault();
+      firstEl.focus({ preventScroll: true });
+    }
+  }
+});
+
+function change(v) {
+  if (v === en) return;
+  en = v;
+  try { localStorage.setItem('cheat-ui', v ? 'en' : 'zh'); } catch(e) {}
+  render(true);
+}
+$('zh').onclick = () => change(false);
+$('en').onclick = () => change(true);
+
+$('countryLangSelect').onchange = (e) => {
+  currentLang = e.target.value;
+  try { localStorage.setItem('cheat-target-lang', currentLang); } catch(err) {}
+  render(true);
+};
+
+render();
+
+(function initAd() {
+  var cfg = window.ADS_CONFIG || {};
+  if (!cfg.client || !cfg.slot) return;
+  var unit = $('adUnit');
+  unit.setAttribute('data-ad-client', cfg.client);
+  unit.setAttribute('data-ad-slot', cfg.slot);
+  $('adSlot').hidden = false;
+  try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+})();
+</script>
+</body>
+</html>

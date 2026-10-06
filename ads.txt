@@ -1,0 +1,2 @@
+# 取得 AdSense 發布商 ID 後，把下行的 pub-0000000000000000 換成自己的 ID，並移除行首的 #
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
