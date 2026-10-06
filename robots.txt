@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://mtlppp.github.io/travel-cheat-sheet/sitemap.xml
+Disallow: /
